@@ -1,0 +1,19 @@
+Aufgaben zu Listen:
+
+1) Zwei Listen sind gleich, wenn alle Knoten die gleichen Elemente in der 
+gleichen Reihenfolge aufweisen. Schreiben Sie eine Methode isEquals(), welche
+die folgenden Bedingungen erfüllt:
+
+public boolean isEquals(LinkedList comparedList)
+
+Die Liste soll "true" zurückgeben, wenn alle Knoten die gleichen
+Elemente in der selben Reihenfolge aufweisen.
+
+2) Schreiben Sie eine Methode "flip", welche die Reihenfolge der Elemente
+in einer Liste tauscht. Die Methode soll die folgende Signatur aufweisen:
+
+public void flip()
+
+3) Schreiben Sie eine Methode findCloseNodes, welche einen Suchstring
+übergeben bekommt und alle Nodes ausgeben soll, deren Element den
+Suchstring enthält.
