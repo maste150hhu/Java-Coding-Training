@@ -29,6 +29,10 @@ welche das `Interface GameObject implementieren` sollen.
 Die Klassen benötigen einen `Konstruktor`, `private Instanzvariablen` und es
 müssen außerdem `sinnvolle Typen` gewählt werden.
 
+Zusätzlich sollen alle Implementierungen von GameObject eine private
+Instanzvariable `texture` vom Typ `char` besitzen, welche durch den Aufruf
+von `print` ausgegeben wird.
+
 === Interface GameObject:
 
 * public long getId()
