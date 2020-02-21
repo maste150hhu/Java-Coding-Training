@@ -14,7 +14,7 @@ public class Game {
                 int rnd = (int) (Math.random() * 20);
                 if(rnd >= 15 && rnd < 19) {
                     // !Füge ein Obstacle ein!
-                } else if(rnd == 19 && Math.abs(i - player.x) > 2 && Math.abs(j - player.y) > 2){ 
+                } else if(rnd == 19 && Math.abs(i - player.getX()) > 2 && Math.abs(j - player.getY()) > 2){ 
                     // !Füge einen Enemy ein!
                 } else {
                     // !Setze ein freies Feld!
